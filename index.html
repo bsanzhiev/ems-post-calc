@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EMS Postage Calculator</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="form-group">
+            <a class="brand" href="http://www.emspost.ru/ru/corp_clients/dogovor_docements/api/"><img src="img/logo.png"></a>
+            <h3><label for="sel1">Postage Calculator</label></h3>
+            <hr>
+            <h4><label for="sel1">Choose city:</label></h4>
+            <select class="form-control" id="sending">
+                <option value="" selected disabled>Sending from</option>
+            </select>
+            <select class="form-control" id="going">
+                <option value="" selected disabled>Going to</option>
+            </select>
+            <br>
+            <h4><label for="sel1">Enter weight:</label></h4>
+            <span class="help-block" id="max-weight">Max weight: </span>
+            <input type="text" class="form-control" id="weight" type="text" value="" /><br>
+            <button type="button" class="btn btn-default" id="calc">Calculate price</button>
+            <br><hr><h4><div id="price"></div></h4>
+            <br><h4><div id="term"></div></h4>
+        </div>
+    </div>
+
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
