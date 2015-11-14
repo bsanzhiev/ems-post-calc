@@ -21,7 +21,7 @@ h3 {
 .btn-default {
     position: relative;
     float: left;
-    left: 33%;
+    left: 27%;
     background-color: hsl(212, 73%, 32%) !important;
     background-repeat: repeat-x;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#69a4e7", endColorstr="#164d8d");
